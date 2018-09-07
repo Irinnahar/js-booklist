@@ -1,0 +1,49 @@
+body{
+    background: #EEEEEE;
+}
+.container {
+    background: rgba(255,255,255,.7);
+    border-radius: 5px;
+    padding: 0;
+}
+h2 {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+#book-list, #inputbox {
+    padding: 0 5% 5% 5%;
+}
+
+#showBook, #addBtn {
+    width: 185px;
+    margin: 10px 10%;
+    background: #EEEEEE;
+    font-size: 18px;
+    transition: .5s;
+    color: black;
+    border: none;
+}
+#addBtn {
+    margin-right: 50px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    width: 40px;
+    font-size: 23px;
+    font-weight: bold;
+    height: 40px;
+}
+#divIcon {
+    position: absolute;
+    right: 25px;
+    top: 18px;
+}
+.btn.btn-default.submit, .btn.btn-default.add {
+    background: black;
+    color: white;
+    margin: 5px;
+}
